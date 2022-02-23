@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!-- Updated code by Marisol Rodriguez as per HTML & Web Accessibility | Activity 2.7.1 -->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Activity 2.7.1 | Mock Layout</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <!-- Link to Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- The body of this assignment shows a wireframe that includes sections: 
+      1. block image of a large pic. 
+      2. 6 icon images using span tag.
+      3. 4 images followed by 
+      4. 4 text corresponding to each image above. 
+        -->
+    <!-- 1. This is the first section, as depicted by a div tag, with a large image as a block element (div tags are block elements by default) -->
+    <div id="pic">
+      <div>
+        <img
+          src="http://placekitten.com/500/150"
+          alt="Image of 4 cute kittens."
+        />
+      </div>
+    </div>
+    <!-- 2. Second section: 6 icons inline-block format, as per CSS file "inline-block" -->
+    <div id="icons">
+      <span><i class="fas fa-camera"></i></span>
+      <span><i class="fas fa-anchor"></i></span>
+      <span><i class="fas fa-chess"></i></span>
+      <span><i class="fas fa-club"></i></span>
+      <span><i class="fas fa-heart"></i></span>
+      <span><i class="fas fa-bone"></i></span>
+    </div>
+    <!-- 3. & 4. sections displayed as inline-block elements. Each span is called in the CSS link to display as inline-block. (Each section has an image with text below.) -->
+    <div id="mini-layout">
+      <span>
+        <div>
+          <img
+            src="http://placekitten.com/100/100"
+            alt="Picture of a cat with a blue skyline. "
+          />
+        </div>
+        <div><strong>Curious Cat!</strong></div>
+        <div><p>So cute!</p></div>
+        <div><a href="http://placekitten.com/">More Cats</a></div>
+      </span>
+      <span>
+        <div>
+          <img src="http://place-puppy.com/100x100" alt="Pic" />
+        </div>
+        <div>
+          <strong>Silly Puppy</strong>
+        </div>
+        <div>
+          <p>So curious!</p>
+        </div>
+        <div>
+          <a href="http://place-puppy.com">More Dogs</a>
+        </div>
+      </span>
+      <span>
+        <div>
+          <img
+            src="https://placebear.com/100/100"
+            alt="Bear swimming in a lake."
+          />
+        </div>
+        <div><strong>Big Bear</strong></div>
+        <div><p>Beary cute!</p></div>
+        <div><a href="https://placebear.com/">More Bears</a></div>
+      </span>
+      <span>
+        <div>
+          <img
+            src="https://picsum.photos/seed/picsum/100"
+            alt="A snowy landscape of a mountain peak on a sunny day."
+          />
+        </div>
+        <div><strong>Landscape</strong></div>
+        <div><p>Free images!</p></div>
+        <div>
+          <a href="https://picsum.photos/">Lorem Picsum</a>
+        </div>
+      </span>
+    </div>
+  </body>
+</html>
